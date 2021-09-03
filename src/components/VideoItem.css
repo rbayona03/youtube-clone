@@ -1,0 +1,18 @@
+.videoItem{
+    display: flex!important;
+    align-items: center;
+}
+
+.videoItem.item img{
+    max-width: 200px;
+    cursor: pointer;
+}
+
+.videoHeader{
+    cursor: pointer;
+    padding: 5px;
+}
+
+.videoHeader:hover{
+    text-decoration: underline 1.5px #000;
+}
